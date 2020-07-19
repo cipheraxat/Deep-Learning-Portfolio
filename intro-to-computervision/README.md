@@ -3,7 +3,7 @@
 [image1]: ./images/CNN_all_layers.png "CNN Layers"
 
 # Introduction to Computer Vision
-This repository contains notebooks for learning about how convolutional neural networks (CNN's) can be used to create an image classifier given a set of training data. The notebooks include examples that are meant for learning about the individual layers that make up a convolutional neural network, and an example clothing classifier that is trained on the [FashionMNIST](https://www.kaggle.com/zalando-research/fashionmnist) dataset.
+This repository contains notebooks for learning about how convolutional neural networks (CNN's) can be used to create an image classifier given a set of training data. The notebooks include examples that are meant for learning about the individual layers that make up a convolutional neural network.
 
 ![CNN Layers][image1]
 
@@ -65,14 +65,13 @@ These instructions also assume you have `git` installed for working with Github 
 conda install git
 ```
 
-If you'd like to learn more about version control and using `git` from the command line, take a look at our [free course: Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123).
 
 **Now, we're ready to create our local environment!**
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/cezannec/intro-computervision.git
-cd intro-computervision
+git clone https://github.com/cipheraxat/Deep-Learning-Portfolio.git
+cd intro-to-computervision
 ```
 
 2. Create (and activate) a new environment, named `cv-env` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
@@ -113,7 +112,7 @@ Now all of the `cv-env` libraries are available to you. Assuming you're environm
 
 ```
 cd
-cd intro-computervision
+cd intro-to-computervision
 jupyter notebook
 ```
 
